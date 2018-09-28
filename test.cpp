@@ -1,6 +1,11 @@
 #inlcude <iostream>
+#include <string>
 
 using namespace std;
+
+void writeText(string text){
+	cout << text << endl;
+}
 
 int main(){
 	cout << "Adjon meg két számot!" << endl;
