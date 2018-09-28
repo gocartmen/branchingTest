@@ -1,4 +1,5 @@
 #inlcude <iostream>
+#include <sstream>
 
 using namespace std;
 
@@ -11,7 +12,8 @@ int main(){
 	cout << "Szám 2 : ";
 	cin >> number2;
 
-	cout << "A két szám különbsége: " << number1 - number2 << endl;
+	stringstream outText = "";
+	outText << "A két szám különbsége: " << number1 - number2 << endl;
 
 	return;
 }
