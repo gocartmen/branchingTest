@@ -1,12 +1,11 @@
 #include "newClass.h"
 
-NewClass::NewClass(int x,int y)
+NewClass::NewClass()
 {
-  	this.x = x;
-  	this.y = y;
 }
 
-int NewClass::getSum()
+int NewClass::getSub(int x, int y)
 {
-  	return x + y;
+	result = x - y;
+  	return result;
 }

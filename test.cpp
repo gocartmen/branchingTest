@@ -2,6 +2,8 @@
 #include <sstream>
 #include <string>
 
+#include "Classes/newClass.h"
+
 using namespace std;
 
 void writeText(string text){
@@ -17,9 +19,11 @@ int main(){
 	cout << "Szám 2 : ";
 	cin >> number2;
 
+	NewClass calc;
+
 	stringstream outText;
 	outText.str("");
-	outText << "A két szám különbsége: " << number1 - number2 << endl;
+	outText << "A két szám különbsége: " << calc.getSub(number1, number2) << endl;
 	
 	writeText(outText.str());
 

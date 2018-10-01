@@ -3,11 +3,10 @@
 
 class NewClass
 {
-	int x = 0;
- 	int y = 0;
+	int result = 0;
 public:
-  	NewClass(int x,int y);
-  	int getSub();
+  	NewClass();
+  	int getSub(int x, int y);
 };
 
 #endif
