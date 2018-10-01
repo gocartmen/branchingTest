@@ -22,5 +22,5 @@ int main(){
 	
 	writeText(outText.str());
 
-	return;
+	return 0;
 }
