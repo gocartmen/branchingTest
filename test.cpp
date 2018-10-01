@@ -19,6 +19,8 @@ int main(){
 
 	stringstream outText = "";
 	outText << "A két szám különbsége: " << number1 - number2 << endl;
+	
+	writeText(outText.str());
 
 	return;
 }
