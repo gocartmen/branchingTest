@@ -17,7 +17,8 @@ int main(){
 	cout << "Szám 2 : ";
 	cin >> number2;
 
-	stringstream outText = "";
+	stringstream outText;
+	outText.str("");
 	outText << "A két szám különbsége: " << number1 - number2 << endl;
 	
 	writeText(outText.str());
