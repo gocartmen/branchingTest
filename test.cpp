@@ -50,5 +50,18 @@ int main(){
 	writeText(codedText);
 	writeText(decodedText);
 
+	//a bit more complex task
+	writeText("\nFelhasználva az előzőekben fejlesztett függvényeket kiszámítjuk az eredményt és kódoltan tároljuk!\n");
+
+	float num1 = 5.3, num2 = 3.9365, num3 = 9.653;
+	
+	float res1 = stof(div.getDiv(div.getMul(calc.getSub(calc.getAdd(num1, num2), num3), num3), num2));
+	string res1S = to_string(res1);
+	string encRes = code.encode(res1S);	
+	string decRes = code.decode(encRes);
+
+	writeText(encRes);
+	writeText(decRes);
+
 	return 0;
 }
