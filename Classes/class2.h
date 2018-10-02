@@ -12,6 +12,7 @@ class Class2
 public:
   	Class2();
   	string getDiv(float x, float y);
+	int getMul(float x, float y);
 };
 
 #endif

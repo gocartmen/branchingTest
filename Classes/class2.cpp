@@ -13,3 +13,9 @@ string Class2::getDiv(float x, float y)
   		return to_string(result);
 	}
 }
+
+int Class2::getMul(float x, float y)
+{
+	result = x * y;
+	return result;
+}
