@@ -25,6 +25,9 @@ int main(){
 
 	stringstream outText;
 	outText.str("");
+	
+	outText << "A két szám összege: " << calc.getAdd(number1, number2) << endl;
+
 	outText << "A két szám különbsége: " << calc.getSub(number1, number2) << endl;
 	
 	outText << "A két szám hányadosa: " << div.getDiv(number1, number2) << endl;
