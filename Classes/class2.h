@@ -11,7 +11,7 @@ class Class2
 	float result = 0;
 public:
   	Class2();
-  	string getDiv(int x, int y);
+  	string getDiv(float x, float y);
 };
 
 #endif
