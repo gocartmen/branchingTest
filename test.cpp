@@ -3,6 +3,7 @@
 #include <string>
 
 #include "Classes/newClass.h"
+#include "Classes/class2.h"
 
 using namespace std;
 
@@ -20,11 +21,14 @@ int main(){
 	cin >> number2;
 
 	NewClass calc;
+	Class2 div;
 
 	stringstream outText;
 	outText.str("");
 	outText << "A két szám különbsége: " << calc.getSub(number1, number2) << endl;
 	
+	outText << "A két szám hányadosa: " << div.getDiv(number1, number2) << endl;
+
 	writeText(outText.str());
 
 	return 0;
