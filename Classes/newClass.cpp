@@ -4,13 +4,13 @@ NewClass::NewClass()
 {
 }
 
-int NewClass::getAdd(int x, int y)
+float NewClass::getAdd(float x, float y)
 {
 	result = x + y;
   	return result;
 }
 
-int NewClass::getSub(int x, int y)
+float NewClass::getSub(float x, float y)
 {
 	result = x - y;
   	return result;

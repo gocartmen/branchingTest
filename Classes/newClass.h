@@ -3,11 +3,11 @@
 
 class NewClass
 {
-	int result = 0;
+	float result = 0;
 public:
   	NewClass();
-	int getAdd(int x, int y);
-  	int getSub(int x, int y);
+	float getAdd(float x, float y);
+  	float getSub(float x, float y);
 };
 
 #endif
