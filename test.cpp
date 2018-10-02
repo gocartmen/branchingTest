@@ -27,6 +27,8 @@ int main(){
 	outText.str("");
 	outText << "A két szám különbsége: " << calc.getSub(number1, number2) << endl;
 	
+	outText << "A két szám szorzata: " << div.getMul(number1, number2) << endl;
+
 	outText << "A két szám hányadosa: " << div.getDiv(number1, number2) << endl;
 
 	writeText(outText.str());
