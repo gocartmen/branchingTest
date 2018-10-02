@@ -6,6 +6,7 @@ Coder::Coder()
 
 string Coder::encode(string text)
 {
+	result = text;
 	for(int i=0;i<text.length();i++){
 		result[i] = text[i] + 3;
 	}
@@ -15,6 +16,7 @@ string Coder::encode(string text)
 
 string Coder::decode(string text)
 {
+	result = text;
 	for(int i=0;i<text.length();i++){
 		result[i] = text[i] - 3;
 	}

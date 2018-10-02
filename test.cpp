@@ -39,7 +39,7 @@ int main(){
 	writeText(outText.str());
 	
 	//new part
-	string preparedText = "Ez egy teszt szöveg amit kódolni fogunk!";
+	string preparedText = "Ez a teszt szöveg kódolva és dekódolva lett!";
 	string codedText = "";
 	string decodedText = "";
 
