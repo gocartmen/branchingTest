@@ -8,7 +8,7 @@ using namespace std;
 
 class Coder
 {
-	string result = 0;
+	string result = "";
 public:
   	Coder();
   	string encode(string text);
