@@ -1,4 +1,4 @@
-#include "Class2.h"
+#include "class2.h"
 
 Class2::Class2()
 {
