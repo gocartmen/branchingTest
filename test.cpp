@@ -4,6 +4,7 @@
 
 #include "Classes/newClass.h"
 #include "Classes/class2.h"
+#include "Classes/coder.h"
 
 using namespace std;
 
@@ -22,6 +23,7 @@ int main(){
 
 	NewClass calc;
 	Class2 div;
+	Coder code;
 
 	stringstream outText;
 	outText.str("");
@@ -35,6 +37,18 @@ int main(){
 	outText << "A két szám hányadosa: " << div.getDiv(number1, number2) << endl;
 
 	writeText(outText.str());
+	
+	//new part
+	string preparedText = "Ez egy teszt szöveg amit kódolni fogunk!";
+	string codedText = "";
+	string decodedText = "";
+
+	codedText = code.encode(preparedText);
+	decodedText = code.decode(codedText);
+
+	writeText("Kódolás/dekódolás DEMO: ");
+	writeText(codedText);
+	writeText(decodedText);
 
 	return 0;
 }
